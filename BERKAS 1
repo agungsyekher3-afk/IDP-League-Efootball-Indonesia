@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liga eFootball</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Liga eFootball</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Jadwal</a></li>
+        <li><a href="#">Klasemen</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda">
+      <h2>Selamat Datang di Liga eFootball</h2>
+      <p>Komunitas gaming untuk semua pecinta eFootball!</p>
+    </section>
+
+    <section id="jadwal">
+      <h2>Jadwal Pertandingan</h2>
+      <table>
+        <tr><th>Tanggal</th><th>Tim</th><th>Skor</th></tr>
+        <tr><td>01/09/2025</td><td>Tim A vs Tim B</td><td>-</td></tr>
+        <tr><td>02/09/2025</td><td>Tim C vs Tim D</td><td>-</td></tr>
+      </table>
+    </section>
+
+    <section id="klasemen">
+      <h2>Klasemen Sementara</h2>
+      <table>
+        <tr><th>Pos</th><th>Tim</th><th>Poin</th></tr>
+        <tr><td>1</td><td>Tim A</td><td>3</td></tr>
+        <tr><td>2</td><td>Tim B</td><td>1</td></tr>
+        <tr><td>3</td><td>Tim C</td><td>0</td></tr>
+      </table>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <p>Hubungi kami melalui Instagram: 
+        <a href="https://instagram.com/idp_league_efootball">@idp_league_efootball</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Liga eFootball</p>
+  </footer>
+</body>
+</html>
